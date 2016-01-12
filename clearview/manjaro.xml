@@ -16,7 +16,6 @@
     Beta test
   </Description>
   <GitHub>https://github.com/robeastham/manjaro-docker</GitHub>
-  <Repository>limetech/plex</Repository>
   <Support>https://github.com/robeastham/manjaro-docker</Support>
   <BindTime>true</BindTime>
   <Privileged>true</Privileged>
