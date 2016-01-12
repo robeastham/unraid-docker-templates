@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Date>2016-01-12</Date>
+  <Beta>True</Beta>
+  <Category>Other:OS</Category>
+  <Name>Manjaro</Name>
+  <Project>https://github.com/robeastham/manjaro-docker</Project>
+  <Changes>
+[font size=3]2016-01-12[/font]
+- Initial Release
+  </Changes>
+  <Overview>
+    Base Manjaro machine for remote development.
+  </Overview>
+  <Description>
+    Beta test
+  </Description>
+  <GitHub>https://github.com/robeastham/manjaro-docker</GitHub>
+  <Repository>limetech/plex</Repository>
+  <Support>https://github.com/robeastham/manjaro-docker</Support>
+  <BindTime>true</BindTime>
+  <Privileged>true</Privileged>
+  <Networking>
+    <Mode>host</Mode>
+    <Publish/>
+  </Networking>
+  <Environment/>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/manjaro1</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:32400]/web/index.html</WebUI>
+  <Banner></Banner>
+  <Icon>http://d2631fvi2jdnb6.cloudfront.net/docker/limetech/plex.png</Icon>
+</Containers>
